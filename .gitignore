@@ -1,0 +1,120 @@
+# ==== 机密信息和敏感数据 ====
+# 用户数据和认证信息
+data/
+*.json
+*users.json
+*login_logs.json
+*permissions.json
+*token_blacklist.json
+
+# SSL证书和密钥
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+ssl/
+
+# 环境配置文件
+.env
+.env.local
+.env.production
+.env.staging
+config.ini
+settings.ini
+
+# ==== Python环境 ====
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==== 应用数据和日志 ====
+# 日志文件
+logs/
+*.log
+*.out
+
+# 备份文件
+backups/
+*.backup
+*.bak
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ==== IDE和编辑器 ====
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+
+# ==== 系统文件 ====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==== 测试和覆盖率 ====
+.coverage
+.pytest_cache/
+.tox/
+.coverage.*
+htmlcov/
+
+# ==== 其他 ====
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 进程ID文件
+*.pid
